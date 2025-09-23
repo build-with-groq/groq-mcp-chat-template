@@ -1,0 +1,16 @@
+{
+  "name": "groq-chat-mcp-agent",
+  "compatibility_date": "2024-12-01",
+  "main": "./src/worker.ts",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    "GROQ_API_KEY": "",
+    "APP_PASSWORD": ""
+  },
+  "build": {
+    "command": "npm run build"
+  }
+}
