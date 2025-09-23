@@ -21,7 +21,7 @@ export default {
     // API endpoint to get configuration
     if (url.pathname === '/api/config') {
       const config = {
-        groqApiKey: env.GROQ_API_KEY,
+        groqApiKey: env.GROQ_API_KEY ?? "",
         appPassword: env.APP_PASSWORD
         // MCP configuration will be added here in the future
       };

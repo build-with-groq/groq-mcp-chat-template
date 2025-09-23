@@ -14,7 +14,8 @@ function createGroqService(): GroqService {
   // Create the OpenAI client configured to use Groq's API
   const client = new OpenAI({
     apiKey: '',
-    baseURL: 'https://api.groq.com/openai/v1',
+    // Replace with https://api.groq.com/openai/v1 when using the template on your own
+    baseURL: 'https://demo-proxy.groqcloud.dev/openai/v1',
     dangerouslyAllowBrowser: true
   });
 
